@@ -531,7 +531,7 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
 1.Create Table
  
-   `CREATE TABLE [IF NOT EXISTS] table_name (column1 datatype(length) column_contraint,column2 datatype(length) column_contraint,column3 datatype(length)                    column_contraint,table_constraints);`
+     `CREATE TABLE [IF NOT EXISTS] table_name (column1 datatype(length) column_contraint,column2 datatype(length) column_contraint,column3 datatype(length)                    column_contraint,table_constraints);`
  
 2.Select Into
  
@@ -552,26 +552,26 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
 6.Add Column
  
-    `ALTER TABLE table_name ADD COLUMN new_column_name data_type constraint;`
+      `ALTER TABLE table_name ADD COLUMN new_column_name data_type constraint;`
  
 7.Drop Column
  
-   `ALTER TABLE table_name  DROP COLUMN column_name;`
+      `ALTER TABLE table_name  DROP COLUMN column_name;`
  
  
 8.Change Column’s Data Type
  
-  `ALTER TABLE table_name ALTER COLUMN column_name [SET DATA] TYPE new_data_type;`
+       `ALTER TABLE table_name ALTER COLUMN column_name [SET DATA] TYPE new_data_type;`
  
  
 9.Rename Column
  
-  `ALTER TABLE table_name RENAME COLUMN column_name TO new_column_name;`
+       `ALTER TABLE table_name RENAME COLUMN column_name TO new_column_name;`
  
  
 10.Drop Table
  
-   `DROP TABLE [IF EXISTS]  table_name_1,table_name_2,...[CASCADE | RESTRICT];`
+       `DROP TABLE [IF EXISTS]  table_name_1,table_name_2,...[CASCADE | RESTRICT];`
  
  **16th may to 3 june**
  
