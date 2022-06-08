@@ -430,8 +430,8 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
  4.SELF-JOIN
  
-   `SELECT e.first_name || ' ' || e.last_name employee,m .first_name || ' ' || m .last_name manager FROM employee e
-     INNER JOIN employee m ON m .employee_id = e.manager_id ORDER BY manager;`
+     `SELECT e.first_name || ' ' || e.last_name employee,m .first_name || ' ' || m .last_name manager FROM employee e
+      INNER JOIN employee m ON m .employee_id = e.manager_id ORDER BY manager;`
  
  5.FULL OUTER JOIN
  
@@ -495,7 +495,7 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
  - Common Table Expressions
  
-      `WITH cte_name (column_list) AS (CTE_query_definition )statement;`
+       `WITH cte_name (column_list) AS (CTE_query_definition )statement;`
  
  - Modifying Data
  
@@ -505,19 +505,19 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
  2.INSERT Multiple Rows
  
-    `INSERT INTO table_name (column_list) VALUES (value_list_1),(value_list_2),...(value_list_n);`
+      `INSERT INTO table_name (column_list) VALUES (value_list_1),(value_list_2),...(value_list_n);`
  
  3.UPDATE
  
-     `UPDATE table_name SET column1 = value1,column2 = value2,...WHERE condition;`
+      `UPDATE table_name SET column1 = value1,column2 = value2,...WHERE condition;`
  
  4.UPDATE Join
  
-    `UPDATE t1 SET t1.c1 = new_value FROM t2 WHERE t1.c2 = t2.c2;`
+     `UPDATE t1 SET t1.c1 = new_value FROM t2 WHERE t1.c2 = t2.c2;`
  
  5.DELETE
  
-    `DELETE FROM table_name WHERE condition;`
+     `DELETE FROM table_name WHERE condition;`
  
  6.DELETE Join
  
@@ -531,7 +531,7 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
 1.Create Table
  
-   `CREATE TABLE [IF NOT EXISTS] table_name (column1 datatype(length) column_contraint,column2 datatype(length) column_contraint,column3 datatype(length)            column_contraint,table_constraints);`
+   `CREATE TABLE [IF NOT EXISTS] table_name (column1 datatype(length) column_contraint,column2 datatype(length) column_contraint,column3 datatype(length)                    column_contraint,table_constraints);`
  
 2.Select Into
  
